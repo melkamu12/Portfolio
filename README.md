@@ -67,7 +67,7 @@ To run tests, run the following command:
 
 ## Future Features
 
-- write java script
+- write javaScript
 - add popup modal
 - add contact section
 
