@@ -3,14 +3,6 @@
   font-style: normal;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
 .Content {
   background-image: url(Asset/Headerbg@2x.png);
   background-size: contain;
@@ -42,6 +34,21 @@ nav {
   padding: 0 10px;
 }
 
+.social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social li {
+  margin-right: 8%;
+}
+
+.social li:last-child {
+  margin-right: 0;
+}
+
 @media (min-width: 768px) {
   .Content {
     background-image: url(Asset/Headerbg@2x.png);
@@ -70,20 +77,6 @@ nav {
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
     padding: 20px;
-  }
-
-  .social {
-    width: 117px;
-    height: 24px;
-
-    /* Body / 2 - Bolder */
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   .socialMediaGroup h4 {
