@@ -31,6 +31,12 @@
 
 > HTML, CSS Linters
 
+## Key Features
+
+- write cascide style sheet
+- include image of social network icon
+- page is render on screen size of 768px
+
 ### Setup
 
 Clone this repository to your desired folder:
@@ -38,6 +44,7 @@ Clone this repository to your desired folder:
 ### Install
 
 Install this project with command line of vs-code:
+npm install
 
 ### Usage
 
@@ -58,7 +65,11 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Future Features
+
+- write java script
+- add popup modal
+- add contact section
 
 ## ⭐️ Show your support <a name="support"></a>
 
